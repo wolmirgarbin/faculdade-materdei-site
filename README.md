@@ -1,7 +1,17 @@
 # Novo Site Faculdade Mater Dei
 
-Requerimentos:
+Requisitos:
 - jdk 8
+- Eclipse IDE
+ 
+
+Tecnologias:
+ - Freemarker
+ - Springboot
+ - HTML5 e CSS3
+ - Jquery
+ - Bootstrap
+
 
 Para baixar siga os passos:
 
