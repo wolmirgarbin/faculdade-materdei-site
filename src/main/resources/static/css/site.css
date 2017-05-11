@@ -1,0 +1,57 @@
+body { font-family: Raleway; background-color: #F0F0F0; }
+
+.container-fluid { margin-top: 20px; }
+
+.logo { position: absolute; top: -10px; }
+
+.top-bar { background-color: #006eba; color: #FFF; }
+.top-bar .pull-right a { color: #FFF; opacity: 0.6; padding: 16px 5px; display: inline-block; }
+.top-bar .pull-right a:hover { opacity: 1; text-decoration: none; }
+
+
+.menu-bar { background-color: #006eba; color: #FFF; position: relative; height: 60px; }
+.menu-bar .menu { margin: 0px; padding: 0px; }
+.menu-bar .menu > li { list-style: none; float: left; display: block; }
+.menu-bar .menu > li > a { color: #FFF; opacity: 0.6; padding: 20px 12px; display: inline-block; text-transform: uppercase; font-size: 14px; font-weight: bold; }
+.menu-bar .menu > li > a:hover { opacity: 1; text-decoration: none; }
+.menu-bar .menu > li .submenu { position: absolute; top: 60px; display: none; background-color: #006eba; min-width: 300px; margin: 0px; padding: 0px; margin-left: -15px; -webkit-border-radius: 0px 0px 2px 2px; -moz-border-radius:0px 0px 2px 2px; border-radius:0px 0px 2px 2px; z-index: 99; }
+.menu-bar .menu > li .submenu li span { text-align: center; display: block; opacity: 0.3; }
+.menu-bar .menu > li:hover .submenu { display: block; }
+.menu-bar .menu > li .submenu li { list-style: none; display: block; }
+.menu-bar .menu > li .submenu li a { color: #FFF; opacity: 0.6; padding: 12px 8px 12px 20px; display: block; font-size: 14px; font-weight: bold; }
+.menu-bar .menu > li .submenu li a:hover { opacity: 1; text-decoration: none; background-color: rgba(255,255,255,0.05); }
+
+
+.footer { background-color: #222; color: #FFF; padding-top: 20px; }
+.bg-bl-footer { background-color: rgba(0,0,0,0.2); padding: 22px 0px; }
+.conheca { display: block; }
+.conheca:hover { text-decoration: none; background-color: #F0F0F0; }
+.conheca figure { display: block; height: 60px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: Raleway; font-weight: bold; }
+h1 { font-size: 26px; }
+h2 { font-size: 18px; }
+h3, h4, h5, h6 { font-size: 14px; }
+
+#exTab1 .tab-content { color : white; background-color: #428bca; padding : 5px 15px; }
+#exTab1 .nav-pills > li > a { border-radius: 0; }
+
+.banner { background-color: #f0f0f0; min-height: 180px; }
+
+.service-box { background-color: #FFF; padding: 10% 8%; margin-bottom: 30px; text-align: center; min-height: 240px; }
+.service-box h3 { color: #1d9d73; line-height: 40px;padding-bottom: 26px; border-bottom: 1px solid rgba(200,200,200,0.5); }
+.service-box .text { min-height: 100px; }
+.service-box .btn { border: none; border-radius: 20px; font-weight: bold; padding: 10px 30px; }
+
+.service-box.blue { background-color: #1d9d73; color: #fff; }
+.service-box.blue h3 { color: #fff; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25); font-size: 36px; }
+.service-box.blue .btn { background-color: #FFF; color: #333; }
+
+.atendimento { background-color: #FFF; border-radius: 8px; padding: 28px; background-image: url("../image/phone.png"); background-repeat: no-repeat; font-size: 20px; padding-left: 80px; background-position: 6px center; }
+.atendimento p { margin-bottom: 0px; }
+
+.conheca-fluid { background: #78909c; }
+.conheca-fluid h2 { color: #FFF; text-align: center; }
+.conheca-fluid figure { display: block; min-height: 50px; }
+
+
