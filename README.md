@@ -16,7 +16,7 @@ Projeto para desenvolvimento de atividade prática em sala de aula para proposta
  - Bootstrap
 
 # Para baixar siga os passos
-- git clone https://wolmirgarbin@gitlab.com/materdei/site.git
+- git clone https://github.com/wolmirgarbin/faculdade-materdei-site.git
 
 # Para atualizar seu código fonte local
 - git pull
@@ -29,7 +29,7 @@ Create a new repository (Apenas para enviar o primeiro projeto)
 - Existing folder
 - cd existing_folder
 - git init
-- git remote add origin https://wolmirgarbin@gitlab.com/materdei/site.git
+- git remote add origin https://github.com/wolmirgarbin/faculdade-materdei-site.git
 - git add .
 - git commit
 - git push -u origin master
