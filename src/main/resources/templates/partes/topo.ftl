@@ -33,9 +33,10 @@
                 <div class="atendimento pull-left">
                     <p>(46) 2101-8200</p>
                 </div>
-                <div class="pull-right">
-                    <a href="#">F</a>
-                    <a href="#">G</a>
+                <div class="pull-right text-center padding-redes">
+                    <a href="https://www.facebook.com/faculmaterdei">Facebook</a>
+                    <br>
+                    <a href="https://twitter.com/faculmaterdei">Twitter</a>
                 </div>
             </div>
         </div>
