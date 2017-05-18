@@ -1,22 +1,27 @@
-<@compress single_line=true>
+<@compress single_line=true> <!-- Define que o html será minificado -->
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
+    <!-- inclui as partes compartilhadas entre as páginas -->
     <#include "partes/head.ftl" />
 
+    <!-- Componentes compatilhados entre as páginas -->
     <#import "component/mylib.ftl" as my>
 
+    <!-- Informações especificas de cada página -->
     <title>Mater Dei - Faculdade de Pato Branco</title>
-    <meta name="description" content="A Faculdade Mater Dei é a sua melhor escolha para entrar no mercado de trabalho, escolha seu curso e venha fazer parte da maior faculdade de Pato Branco">
+    <meta name="description" content="A Faculdade Mater Dei de Pato Branco, oferece cursos de graduação e pós graduação e está atenta às exigências de um mundo em constante transformação">
+    <link rel="canonical" href="http://www.materdei.edu.br" />
 </head>
 <body>
 
+    <!-- Inclui o topo a página corrente -->
     <#include "partes/topo.ftl" />
 
-
+    <!-- Utilizando as macros dos componentes para montar html base -->
     <@my.section styleClass="banner">
         <figure class="text-center">
-            <img src="http://www.materdei.edu.br/Arquivos/Banners/Pos-2017.jpg" alt="" title="">
+            <img src="http://www.materdei.edu.br/Arquivos/Banners/Pos-2017.jpg" alt="Pós Graduação em gestão de pessoas e gestão financeira">
         </figure>
     </@my.section>
 
@@ -25,7 +30,7 @@
         <div class="col-md-4">
             <div class="service-box">
                 <figure class="icon">
-                    <img src="https://lived333emo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="">
+                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="icon">
                 </figure>
                 <h2>NOTICIAS</h2>
                 <div class="text">
@@ -36,7 +41,7 @@
         <div class="col-md-4">
             <div class="service-box">
                 <figure class="icon">
-                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="">
+                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="icon">
                 </figure>
                 <h2>ACONTECE</h2>
                 <div class="text">
@@ -47,7 +52,7 @@
         <div class="col-md-4">
             <div class="service-box">
                 <figure class="icon">
-                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="">
+                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="icon">
                 </figure>
                 <h2>CALENDÁRIO</h2>
                 <div class="text">
@@ -60,7 +65,9 @@
 
     <@my.section styleClass="text-center">
         <figure id="slideConteudo">
-            <a href="https://www3.caixa.gov.br/fies/asp/Simulador/Simulador.asp" title="Banner Fies "><img src="http://www.materdei.edu.br/Arquivos/Banners/Banner-Fies-.png" alt="Banner Fies "></a>
+            <a href="https://www3.caixa.gov.br/fies/asp/Simulador/Simulador.asp" title="Banner Fies">
+                <img src="http://www.materdei.edu.br/Arquivos/Banners/Banner-Fies-.png" alt="Banner Fies">
+            </a>
         </figure>
     </@my.section>
 
@@ -103,7 +110,7 @@
         <div class="col-md-6">
             <div class="service-box blue">
                 <figure class="icon">
-                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="">
+                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="icon">
                 </figure>
                 <h3>EGRESSOS</h3>
                 <div class="text">
@@ -115,7 +122,7 @@
         <div class="col-md-6">
             <div class="service-box blue">
                 <figure class="icon">
-                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="">
+                    <img src="https://livedemo00.template-help.com/wordpress_53095/wp-content/themes/theme53095/images/icon2.png" alt="icon">
                 </figure>
                 <h3>OUVIDORIA</h3>
                 <div class="text">
@@ -127,6 +134,7 @@
     </@my.section>
 
 
+    <!-- Rodapé padrão para todas as páginas -->
     <#include "partes/rodape.ftl" />
 
 </body>
