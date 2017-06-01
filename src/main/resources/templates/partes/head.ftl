@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="image/favicon.png" type="image/ico">
+<link rel="shortcut icon" href="http://localhost:8282/image/favicon.png" type="image/ico">
 
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,600,600i" rel="stylesheet">
 
